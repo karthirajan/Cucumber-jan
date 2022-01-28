@@ -24,7 +24,7 @@ public class Commonactions {
 		options.addArguments("start-maximized");
 		options.setExperimentalOption("excludeSwitches",
 			     Arrays.asList("disable-popup-blocking"));
-		options.addArguments("--headless");
+	//	options.addArguments("--headless");
 	    driver = new ChromeDriver(options);
 		driver.get(url);
 	//	driver.manage().window().maximize();
